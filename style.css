@@ -1,0 +1,194 @@
+.n{ 
+    padding : 0; 
+    margin: auto;
+    box-sizing : border-box; 
+} 
+
+h4{
+    text-align: center;
+}
+
+body{ 
+ background-image: url(img/dark.png);
+ background-repeat: repeat;
+ font-family: 'Times New Roman', Times, serif; 
+ font-size : 15px; 
+ } 
+
+p{ 
+ margin-bottom : 20px; 
+ line-height : 1.5em; 
+} 
+
+h1{ 
+ color: rgb(0, 0, 0);
+ text-align: center;
+ margin-bottom : 20px; 
+ border-bottom : 1px solid #aaa; 
+} 
+
+a{ 
+ text-decoration : none; 
+ color : #333; 
+}
+
+a:hover{ 
+ color : #666; 
+} 
+
+.next{
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255);
+}
+
+.container{ 
+ max-width : 1080px; 
+ margin : 20px auto; 
+ background-image: url(img/white.png);
+ overflow : hidden; 
+ padding : 10px; 
+} 
+
+.header{ 
+ border : 1px solid #dedede; 
+ padding : 10px; 
+ margin : 10px; 
+ background-image: url(img/white.png);
+} 
+
+/* main */ 
+ .left{ 
+ background-image: url(img/dark.png);
+ width : 250px; 
+ border : 1px solid #dedede; 
+ padding : 10px; 
+ margin : 10px; 
+ float : left; 
+ color: #ffffff;
+ }
+
+ .left ul{ 
+ list-style-type : none; 
+ color: #ffffff;
+ } 
+
+ .left ul li{ 
+ display : block; 
+ color: #ffffff;
+ } 
+
+ .left ul li a{ 
+ display :block; 
+ border-bottom : 1px solid #ffffff; 
+ margin-bottom : 10px; 
+ padding : 10px 5px; 
+ color: #ffffff;
+ } 
+
+ .left ul li a:hover{ 
+ color:#461AF3; 
+ } 
+
+.middle{ 
+ width : 500px; 
+ border : 1px solid #dedede; 
+ padding : 10px; 
+ margin : 10px; 
+ float : left; 
+ } 
+
+ .middle img{ 
+ max-width : 100%; 
+ height : auto; 
+ } 
+
+ .middle a{ 
+ font-wight:bold; 
+ } 
+
+.right{ 
+ background-image: url(img/dark.png);
+ width : 250px; 
+ border : 1px solid #dedede; 
+ padding : 10px; 
+ margin : 10px; 
+ float : left; 
+ color: #ffffff;
+ } 
+
+ .right ul{ 
+ list-style-type : none; 
+ color: #ffffff;
+ } 
+
+ .right ul li{ 
+ display : block; 
+ color: #ffffff;
+ } 
+
+ .right ul li a{ 
+ display :block; 
+ border-bottom : 1px solid #ffffff; 
+ margin-bottom : 10px; 
+ padding : 10px 5px; 
+ color: #ffffff;
+ }
+
+ .right ul li a:hover{ 
+ color:#461AF3; 
+ } 
+
+ .footer{ 
+ clear : both; 
+ border : 1px solid #dedede; 
+ padding : 15px; 
+ margin : 10px; 
+ color: rgb(0, 0, 0);
+ background-image: url(img/white.png);
+ text-align: center;
+} 
+ 
+/*MEDIA QUERIES ( Responsive ) 
+*******************************************/ 
+@media screen and (max-width:1080px) 
+{ 
+ .container{ 
+ width : 100%; 
+ } 
+ .left{ 
+ width : 25%; 
+ background : #D6CCFE; 
+ } 
+ .middle{ 
+ width : 68%; 
+ float : right; 
+ } 
+ .right{ 
+ clear : both; 
+ padding : 1% 4%; 
+ width : auto; 
+ float : none; 
+ background : #D6CCFE; 
+ } 
+} 
+
+/* untuk ukuran layar 700px kebawah */ 
+@media screen and (max-width: 780px) 
+{ 
+ .header, 
+ .footer{ 
+ text-align : center; 
+ } 
+ .left { 
+ width : auto; 
+ float : none; 
+ } 
+ .middle { 
+    width : auto; 
+    float : none; 
+    } 
+.right { 
+    width : auto; 
+    float : none; 
+    } 
+}
